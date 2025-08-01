@@ -1,0 +1,25 @@
+HTML:
+<div id="intro">
+  <h1>Main Title</h1>
+  <p class="highlight">This paragraph is important.</p>
+  <p>This is a regular paragraph.</p>
+</div>
+
+CSS:
+/* Tag selector: styles all <p> elements */
+p {
+  color: #555;
+}
+
+/* Class selector: styles only elements with class="highlight" */
+.highlight {
+  background-color: yellow;
+  font-style: italic;
+}
+
+/* ID selector: styles the single element with id="intro" */
+#intro {
+  border: 1px solid #ccc;
+}
+
+
